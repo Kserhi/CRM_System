@@ -22,35 +22,44 @@ function Login() {
   };
 
   return (
-    <div className="container">
-      <h2>Вхід</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="password">Пароль</label>
-          <input
-            type="password"
-            className="form-control"
-            id="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <button type="submit" className="btn btn-primary">Увійти</button>
-      </form>
+    <div className="container d-flex justify-content-center">
+      <div className="FormStyle.container">
+        <h2>Вхід</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <div/>
+            <input
+              type="email"
+              className="FormStyle.form-control-sm"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">Пароль</label>
+            <div/>
+            <input
+              type="password"
+              className="FormStyle.form-control-sm"
+              id="password"
+              name="password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+            /> 
+            <div/>
+          </div>
+          <div className='mt-2'>
+            <button type="submit" className="btn btn-primary">
+              Увійти
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

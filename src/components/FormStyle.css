@@ -1,0 +1,32 @@
+/* CSS стилі для зменшення форми */
+.form-control-sm {
+    padding: 0.25rem 0.5rem; /* Зменшити внутрішні відступи елементу вводу */
+    font-size: 0.875rem; /* Зменшити розмір шрифту */
+  }
+  
+  /* CSS стилі для вирівнювання форми посередині
+  .container {
+    max-width: 700px; /* Фіксована ширина контейнера */
+    /* margin: 0 auto; /* Вирівнювання по горизонталі (посередині) */
+
+  /* Відступ знизу заголовка */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Центрування форми */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Обмеження ширини форми */
+.form-container {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+  

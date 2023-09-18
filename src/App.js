@@ -21,7 +21,6 @@ function App() {
           </ul>
         </nav>
 
-        {/* Замініть Router на Routes */}
         <Routes>
           <Route path="/registration" element={<Registration />} />
           <Route path="/login" element={<Login />} />
