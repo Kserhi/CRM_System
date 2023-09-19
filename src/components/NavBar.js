@@ -13,6 +13,9 @@ function NavBar() {
       <li className="nav-item">
         <Link to="/login" className="nav-link">Вхід</Link>
       </li>
+      <li className="nav-item">
+        <Link to="/dataTable" className="nav-link">Табличка</Link>
+      </li>
       
     </ul>
   </nav>
