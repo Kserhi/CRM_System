@@ -5,6 +5,7 @@ import { Routes } from 'react-router-dom'; // Додайте Routes та Route
 import Login from './components/Login';
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import DataTable from './components/DataTable';
 
 function App() {
 
@@ -12,12 +13,8 @@ function App() {
   
   return (
     <Router>
-      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
-      </Routes>
-
-      
     </Router>
     
   );
