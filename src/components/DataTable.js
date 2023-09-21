@@ -32,6 +32,7 @@ function DataTable() {
     };
   
     return (
+      
       <div className="table-container">
         <table className="table">
           <thead>

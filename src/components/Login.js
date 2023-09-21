@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './NavBar';
+import "./FormStyle.css"
 
 
 function Login() {
@@ -25,14 +25,10 @@ function Login() {
 
   return (
    <>
-   <div className='container'>
-   <NavBar/>
-
-   
-   <div className="container d-flex justify-content-center">
-      
-      <div className="FormStyle.container">
-        <h2>Вхід</h2>
+   <div className='container'>      
+      <div className="container color">
+        <h4 >Авторизація користувача</h4>
+        
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="email">Email</label>
@@ -69,7 +65,7 @@ function Login() {
         </form>
       </div>
     </div>
-   </div>
+   
    
    
    </>
